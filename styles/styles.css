@@ -1,4 +1,5 @@
-main, body {
+main {
+
 }
 
 body {
@@ -6,34 +7,46 @@ body {
 }
 
 .container {
-  margin:100px 10px;
+
 }
 
 .header {
   background-color:#462C51;
   height:100%;
+  border: 10px solid #000;
 }
 
 #nav {
   background-color:#F87735;
+  border: 10px solid #000;
 }
 
 #banner {
   background-color:#C8B858;
+  border: 10px solid #000;
 }
 
 .aside-links {
   background-color:#CF848B;
+  border: 10px solid #000;
 }
 
 .content {
   background-color:#211009;
+  border: 10px solid #000;
 }
 
 .sub-banner {
   background-color:#C8B858;
+  border: 10px solid #000;
 }
 
 .sub-content {
   background-color:#211009;
+  border: 10px solid #000;
+}
+
+h2 {
+  background-color:#554455;
+  position:absolute;
 }
