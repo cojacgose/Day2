@@ -3,17 +3,14 @@ main {
 }
 
 body {
-  padding:0px 100px;
-}
-
-.container {
-
+    border-left: 100px solid #000;
+    border-right: 100px solid #000;
+    background-color:#000;
 }
 
 .header {
   background-color:#462C51;
   height:100%;
-  border: 10px solid #000;
 }
 
 #nav {
@@ -46,7 +43,26 @@ body {
   border: 10px solid #000;
 }
 
-h2 {
-  background-color:#554455;
-  position:absolute;
+/*=============================RESPONSIVE===========================*/
+@media screen and (max-width : 768px) {
+  .header {
+    background-color:red;
+  }
+  #banner {
+    background-color:#33E;
+  }
+  #banner h1{
+    font-size:1em;
+  }
+}
+
+@media screen and (max-width : 375px) {
+  body {
+    border-left: 10px solid #FFF;
+    border-right: 10px solid #FFF;
+  }
+  .sub-content {
+    background-color:#444333;
+    color:#FFF;
+  }
 }
